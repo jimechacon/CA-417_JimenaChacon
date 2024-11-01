@@ -99,8 +99,8 @@ def simula_credito(dc,a,c,nesc):
 
 ## TEST
 if __name__ == "__main__":
-    data_hist = pd.read_csv(r'C:\Users\josea\Dropbox\CA0417\curso_python\data_hist.csv')
-    data_cartera = pd.read_csv(r'C:\Users\josea\Dropbox\CA0417\curso_python\data_cartera.csv')
+    data_hist = pd.read_csv('/workspaces/CA-417_JimenaChacon/Clase1-11/data_hist.csv')
+    data_cartera = pd.read_csv('/workspaces/CA-417_JimenaChacon/Clase1-11/data_cartera.csv')
 
     dp = probs(data_hist)
     dc = umbrales(dp)
